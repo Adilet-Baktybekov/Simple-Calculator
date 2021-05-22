@@ -210,7 +210,7 @@ class RimCalc extends Calc{
     }
 
     public void Print(){
-        if (getZnak()=='/'){
+        if (getZnak()=='/'){//если операция деление
             setRezultDouble(del(getNumber1(), getNumber2()));
             if (metka) System.out.println(getRezultDouble());
             else{
